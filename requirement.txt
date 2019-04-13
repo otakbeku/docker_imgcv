@@ -1,0 +1,3 @@
+numpy
+python-opencv=3.4
+python-
