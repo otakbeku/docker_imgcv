@@ -1,7 +1,7 @@
 FROM continuumio/miniconda3
 MAINTAINER Otakbeku <iceramngl@gmail.com>
 RUN ["/bin/bash", "-c", "conda create -n imgcv python=3.6"]
-RUN ["/bin/bash", "-c", "echo 'Source activate env' > ~/.bashrc"]
+RUN ["/bin/bash", "-c", "echo 'Source activate imgcv' > ~/.bashrc"]
 RUN apt-get update \
 	&& apt-get install -y \
 		build-essential \
